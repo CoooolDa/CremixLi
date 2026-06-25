@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Wheel throwing illustration</title>
+  <desc id="desc">A warm illustrated ceramic wheel throwing scene.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff8ed"/>
+      <stop offset="1" stop-color="#eaf2e7"/>
+    </linearGradient>
+    <linearGradient id="clay" x1="0" x2="1">
+      <stop offset="0" stop-color="#b86542"/>
+      <stop offset="1" stop-color="#e2a06f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="720" fill="url(#bg)"/>
+  <circle cx="710" cy="132" r="74" fill="#d9879c" opacity=".22"/>
+  <circle cx="146" cy="594" r="92" fill="#6f9cb6" opacity=".18"/>
+  <ellipse cx="450" cy="558" rx="315" ry="60" fill="#342c28" opacity=".11"/>
+  <ellipse cx="450" cy="532" rx="250" ry="52" fill="#8daa8b"/>
+  <ellipse cx="450" cy="515" rx="250" ry="52" fill="#b7c8a8"/>
+  <ellipse cx="450" cy="500" rx="145" ry="30" fill="#fffaf0"/>
+  <path d="M350 475c9-92 25-172 100-172s91 80 100 172c-38 28-162 28-200 0Z" fill="url(#clay)"/>
+  <ellipse cx="450" cy="474" rx="101" ry="27" fill="#c8754c"/>
+  <ellipse cx="450" cy="465" rx="72" ry="18" fill="#f1bb85"/>
+  <path d="M292 246c48 31 86 67 114 111" fill="none" stroke="#8f4d34" stroke-width="32" stroke-linecap="round"/>
+  <path d="M608 246c-48 31-86 67-114 111" fill="none" stroke="#8f4d34" stroke-width="32" stroke-linecap="round"/>
+  <circle cx="290" cy="245" r="30" fill="#f2c9a5"/>
+  <circle cx="610" cy="245" r="30" fill="#f2c9a5"/>
+  <path d="M370 235c22-62 138-62 160 0" fill="none" stroke="#342c28" stroke-width="14" stroke-linecap="round" opacity=".35"/>
+  <path d="M292 393c41 19 84 29 128 30M477 423c44-1 87-11 128-30" fill="none" stroke="#fffaf0" stroke-width="12" stroke-linecap="round" opacity=".55"/>
+  <g fill="#c8754c" opacity=".26">
+    <circle cx="206" cy="168" r="16"/>
+    <circle cx="702" cy="500" r="18"/>
+    <circle cx="630" cy="146" r="11"/>
+    <circle cx="184" cy="432" r="10"/>
+  </g>
+</svg>
