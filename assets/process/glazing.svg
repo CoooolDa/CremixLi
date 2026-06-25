@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+  <title id="title">Ceramic glazing illustration</title>
+  <desc id="desc">A warm illustrated ceramic glazing scene.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fff8ed"/>
+      <stop offset="1" stop-color="#edf3f6"/>
+    </linearGradient>
+    <linearGradient id="plate" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fffdf6"/>
+      <stop offset="1" stop-color="#d9e8dc"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="720" fill="url(#bg)"/>
+  <circle cx="158" cy="144" r="82" fill="#8daa8b" opacity=".22"/>
+  <circle cx="734" cy="584" r="92" fill="#d9879c" opacity=".16"/>
+  <ellipse cx="454" cy="535" rx="290" ry="62" fill="#342c28" opacity=".1"/>
+  <path d="M222 342c78-150 382-150 460 0 58 112-21 221-230 221S164 454 222 342Z" fill="url(#plate)" stroke="#c8754c" stroke-width="9"/>
+  <path d="M303 366c60-86 238-86 298 0 40 58-14 119-149 119s-189-61-149-119Z" fill="#f7eadb" stroke="#8daa8b" stroke-width="8"/>
+  <path d="M297 352c72 36 118 40 197 0 58-29 94-28 124 0" fill="none" stroke="#6f9cb6" stroke-width="22" stroke-linecap="round"/>
+  <path d="M352 444c26 20 55 31 88 31s65-12 96-36" fill="none" stroke="#d9879c" stroke-width="18" stroke-linecap="round"/>
+  <path d="M611 168l54 30-126 229-54-30 126-229Z" fill="#8f4d34"/>
+  <path d="M657 178l38 21-28 52-38-21 28-52Z" fill="#342c28" opacity=".82"/>
+  <path d="M501 388l38 21-24 43c-4 8-19 6-26 2-8-4-15-16-11-24l23-42Z" fill="#6f9cb6"/>
+  <path d="M392 193c56-26 130-20 176 17" fill="none" stroke="#342c28" stroke-width="12" stroke-linecap="round" opacity=".25"/>
+  <g fill="#c8754c" opacity=".32">
+    <circle cx="202" cy="540" r="12"/>
+    <circle cx="704" cy="150" r="15"/>
+    <circle cx="712" cy="356" r="10"/>
+    <circle cx="246" cy="242" r="18"/>
+  </g>
+</svg>
