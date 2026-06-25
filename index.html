@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>陶语小铺 | Taoyu Studio</title>
+    <meta
+      name="description"
+      content="陶语小铺手作陶瓷小物市集，展示陶瓷钟表、纽扣、冰箱贴、杯子与饰品。"
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Taoyu Studio home">
+        <span class="brand-mark">陶</span>
+        <span>
+          <strong data-i18n="brand">陶语小铺</strong>
+          <small data-i18n="brandTag">手作陶瓷小物市集</small>
+        </span>
+      </a>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#shop" data-i18n="navShop">作品</a>
+        <a href="#process" data-i18n="navProcess">工艺</a>
+        <a href="#contact" data-i18n="navContact">联系</a>
+      </nav>
+      <div class="language-switch" aria-label="Language switcher">
+        <button class="lang-option is-active" type="button" data-lang="zh">中文</button>
+        <button class="lang-option" type="button" data-lang="en">EN</button>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-i18n="heroEyebrow">小批量上新 · 每件都有手作痕迹</p>
+          <h1 data-i18n="heroTitle">把陶土、釉色和一点点可爱，做成日常里的小礼物。</h1>
+          <p data-i18n="heroText">
+            陶语小铺收集手工陶瓷钟表、纽扣、冰箱贴、杯子与饰品。每件作品都经过塑形、修整、上釉和烧制，适合自用，也适合送给喜欢独特小物的人。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#shop" data-i18n="heroShop">浏览作品</a>
+            <button class="button ghost contact-trigger" type="button" data-i18n="heroContact">微信咨询</button>
+          </div>
+        </div>
+        <div class="hero-gallery" aria-label="Featured handmade ceramic pieces">
+          <img class="hero-main" src="assets/products/clock-sun-square.jpg" alt="Handmade ceramic square clock">
+          <div class="hero-stack">
+            <img src="assets/products/buttons-cat-closeup.jpg" alt="Handmade ceramic cat buttons">
+            <img src="assets/products/magnet-panda-set.jpg" alt="Handmade panda ceramic fridge magnets">
+          </div>
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Studio highlights">
+        <article>
+          <strong data-i18n="highlightOneTitle">独一件</strong>
+          <span data-i18n="highlightOneText">手捏形状和釉色变化让每件都不完全相同。</span>
+        </article>
+        <article>
+          <strong data-i18n="highlightTwoTitle">可定制</strong>
+          <span data-i18n="highlightTwoText">可咨询颜色、图案和小批量礼物需求。</span>
+        </article>
+        <article>
+          <strong data-i18n="highlightThreeTitle">微信下单</strong>
+          <span data-i18n="highlightThreeText">看中作品后直接联系确认现货与价格。</span>
+        </article>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="shopEyebrow">Shop the table</p>
+          <h2 data-i18n="shopTitle">今日小市集</h2>
+          <p data-i18n="shopText">先挑一个分类，再慢慢看釉色和表情。</p>
+        </div>
+        <div class="filters" id="categoryFilters" aria-label="Product categories"></div>
+        <div class="product-grid" id="productGrid"></div>
+      </section>
+
+      <section class="process-section" id="process">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="processEyebrow">From clay to keepsake</p>
+          <h2 data-i18n="processTitle">手作过程</h2>
+          <p data-i18n="processText">从泥土成形到釉色稳定，每一步都让小物多一点温度。</p>
+        </div>
+        <div class="process-grid">
+          <article class="process-card">
+            <img src="assets/process/wheel-throwing.svg" alt="Wheel throwing illustration">
+            <div>
+              <span data-i18n="processStepOne">01 · 拉坯与塑形</span>
+              <h3 data-i18n="processOneTitle">先让泥土有自己的轮廓</h3>
+              <p data-i18n="processOneText">杯子、盘子和小挂件会根据用途调整厚度、边缘和手感。</p>
+            </div>
+          </article>
+          <article class="process-card">
+            <img src="assets/process/glazing.svg" alt="Ceramic glazing illustration">
+            <div>
+              <span data-i18n="processStepTwo">02 · 上釉与烧制</span>
+              <h3 data-i18n="processTwoTitle">用釉色留下柔软的光</h3>
+              <p data-i18n="processTwoText">透明釉、彩釉和手绘细节会在窑火里形成自然的流动感。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow" data-i18n="contactEyebrow">Ask on WeChat</p>
+          <h2 data-i18n="contactTitle">喜欢哪一件，发图来问就好。</h2>
+          <p data-i18n="contactText">现货、定制、礼物包装和批量需求都可以微信沟通。</p>
+        </div>
+        <button class="button primary contact-trigger" type="button" data-i18n="contactButton">打开微信咨询</button>
+      </section>
+    </main>
+
+    <div class="contact-modal" id="contactModal" aria-hidden="true">
+      <div class="modal-backdrop" data-close-modal></div>
+      <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" type="button" data-close-modal aria-label="Close">×</button>
+        <div class="qr-placeholder">
+          <span data-i18n="qrLabel">微信二维码</span>
+        </div>
+        <h2 id="modalTitle" data-i18n="modalTitle">微信咨询购买</h2>
+        <p data-i18n="modalText">这里可替换为你的真实微信二维码。也可以在咨询时发送作品截图，确认是否有现货。</p>
+        <a class="button primary" href="#shop" data-close-modal data-i18n="modalBack">继续看作品</a>
+      </section>
+    </div>
+
+    <footer class="site-footer">
+      <span data-i18n="footerBrand">陶语小铺 Taoyu Studio</span>
+      <span data-i18n="footerText">手作陶瓷小物，慢慢上新。</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
